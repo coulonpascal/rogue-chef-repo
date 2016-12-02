@@ -32,7 +32,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # specified to indicate which version to install, the newest 'release-xxxx' will be installed. if you want
     # the latest development version you need to pass in 'master' otherwise not passing a version will get
     # the latest release
-    config.vm.provision :shell, :path => "scripts/geoshape-install.sh", :args => "vagrant release-1.5"
+    config.vm.provision :shell, :path => "scripts/geoshape-install.sh", :args => "vagrant release-1.6"
   end
 
   # The url from where the 'config.vm.box' box will be fetched if it
