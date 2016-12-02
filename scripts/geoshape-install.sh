@@ -57,6 +57,7 @@ rvm install ruby-2.3.0
 rvm --default use 2.3.0
 ruby -v # will show which version is being used
 
+echo 'installed ruby'
 
 # install git
 apt-get install -y git
