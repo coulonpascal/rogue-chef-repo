@@ -52,9 +52,9 @@ rvm get stable
 # install ruby, my machine has this and things work
 rvm list known
 #rvm install ruby-2.0.0-p353  # tyler uses 193
-rvm install ruby-2.2.6
+rvm install ruby-2.3.0
 #rvm --default use 2.0.0-p353
-rvm --default use 2.2.6
+rvm --default use 2.3.0
 ruby -v # will show which version is being used
 
 
